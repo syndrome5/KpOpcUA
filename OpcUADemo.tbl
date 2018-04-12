@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableView title="OPC UA demo">
+  <Param cnlNum="601">Test 1</Param>
+</TableView>

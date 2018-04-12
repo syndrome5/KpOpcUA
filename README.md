@@ -1,6 +1,6 @@
 # KpOpcUA
 
-Plugin OPC UA protocol for RapidScada platform.
+Plugin OPC UA protocol for RapidScada platform : https://github.com/RapidScada/scada
 
 Be careful with :
  - Need to add & install Nu packages like on the screen

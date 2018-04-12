@@ -207,6 +207,7 @@
     <None Include="Res\folder.psd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="KpOpcUA_061.xml" />
     <Content Include="Lang\KpOpcUA.en-GB.xml" />
     <Content Include="Res\ae_cat.png" />
     <Content Include="Res\connect.png" />

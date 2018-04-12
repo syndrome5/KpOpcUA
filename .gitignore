@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.cache
+/obj/Debug
+/packages
+/KpOpcUA.sln

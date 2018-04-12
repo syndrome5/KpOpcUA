@@ -8,6 +8,8 @@ Be careful with :
    - opcfoundation.netstandard.opc.ua.symbols.1.3.352.10.nupkg
    
    ![screen](https://image.noelshack.com/fichiers/2018/15/4/1523524870-2.png)
+   
+ - Check references needed in the project to know what you have to add by NuGet
  - Put your KpOpcUA.dll in KP folder
  - DLL needed to make it working well (normally in the same folder than KpOpcUA.dll)
  - Events of pre-compilation/post-compilation

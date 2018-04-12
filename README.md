@@ -9,7 +9,7 @@ Be careful with :
    
    ![screen](https://image.noelshack.com/fichiers/2018/15/4/1523524870-2.png)
  - Put your KpOpcUA.dll in KP folder
- - DLL needed to make it working well (normally in the same folder that KpOpcUA.dll)
+ - DLL needed to make it working well (normally in the same folder than KpOpcUA.dll)
  - Events of pre-compilation/post-compilation
  - Need to move ScadaCommSvc.Config.xml in system32 folder for windows
  - Need to move KpOpcUA_061.xml in ScadaComm/Config/ and change the IP OPC UA server

@@ -14,5 +14,7 @@ Be careful with :
    ![screen](https://image.noelshack.com/fichiers/2018/15/4/1523523661-1.png)
  - Always restart ScadaComm (& sometimes ScadaServer) to apply changes
 
-Only Logic is working.
-The form is not working, you must specify manually items in config xml file (KpOpcUA_061.xml)
+Status :
+ - Only Logic is working.
+ - The form is not working, you must specify manually items in config files (KpOpcUA_061.xml & OpcUADemo.tbl) & in "Input Channels" in database.
+   Ctrl+F "= null;//" to know the lines must be updated/adapted to this version of OPC UA DLLs (Core/Configuration/Client 1.3.352.10)

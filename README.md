@@ -3,6 +3,11 @@
 Plugin OPC UA protocol for RapidScada platform.
 
 Be careful with :
+ - Need to add & install Nu packages like on the screen
+   - opcfoundation.netstandard.opc.ua.1.3.352.10.nupkg
+   - opcfoundation.netstandard.opc.ua.symbols.1.3.352.10.nupkg
+   
+   ![screen](https://image.noelshack.com/fichiers/2018/15/4/1523524870-2.png)
  - Put your KpOpcUA.dll in KP folder
  - DLL needed to make it working well (normally in the same folder that KpOpcUA.dll)
  - Events of pre-compilation/post-compilation

@@ -178,6 +178,7 @@ namespace Scada.Comm.Devices
             }
             
             // Logs
+            /*
             string m_UtilsLogFilePath;
             bool m_deleteOnLoad = true;
             int m_traceMasks = Opc.Ua.Utils.TraceMasks.Error | Opc.Ua.Utils.TraceMasks.Information;
@@ -185,6 +186,7 @@ namespace Scada.Comm.Devices
             Opc.Ua.Utils.SetTraceLog(m_UtilsLogFilePath, m_deleteOnLoad);
             Opc.Ua.Utils.SetTraceMask(m_traceMasks);
             Opc.Ua.Utils.Trace(Opc.Ua.Utils.TraceMasks.Information, "Beginning of Opc.Ua.Core.Utils logs");
+            */
 
             WriteToLog("Configuration started");
 
@@ -207,7 +209,7 @@ namespace Scada.Comm.Devices
                 m_configuration = await application.LoadApplicationConfiguration(false);
                 
                 // Logs
-                
+                /*
                 string m_UtilsLogFilePath;
                 bool m_deleteOnLoad = false;
                 int m_traceMasks = Opc.Ua.Utils.TraceMasks.Error | Opc.Ua.Utils.TraceMasks.Information;
@@ -215,7 +217,8 @@ namespace Scada.Comm.Devices
                 Opc.Ua.Utils.SetTraceLog(m_UtilsLogFilePath, m_deleteOnLoad);
                 Opc.Ua.Utils.SetTraceMask(m_traceMasks);
                 Opc.Ua.Utils.Trace(Opc.Ua.Utils.TraceMasks.Information, "Beginning of Opc.Ua.Core.Utils logs");
-                
+                */
+
                 bool appCert = await application.CheckApplicationInstanceCertificate(false, 0);
                 m_configuration.ApplicationUri = Opc.Ua.Utils.GetApplicationUriFromCertificate(m_configuration.SecurityConfiguration.ApplicationCertificate.Certificate);
                 m_configuration.CertificateValidator.CertificateValidation += new CertificateValidationEventHandler(CertificateValidator_CertificateValidation);

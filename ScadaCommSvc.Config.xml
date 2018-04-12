@@ -12,7 +12,7 @@
   <ApplicationType>Client_1</ApplicationType>
   <SecurityConfiguration>
   
-    <!--<ApplicationCertificate>
+    <ApplicationCertificate>
       <StoreType>Directory</StoreType>
       <StorePath>%CommonApplicationData%\OPC Foundation\CertificateStores\MachineDefault</StorePath>
       <SubjectName>ScadaCommSvc</SubjectName>
@@ -20,7 +20,7 @@
     <TrustedPeerCertificates>
       <StoreType>Windows</StoreType>
       <StorePath>LocalMachine\UA Applications</StorePath>
-    </TrustedPeerCertificates>-->
+    </TrustedPeerCertificates>
 	
 	<ApplicationCertificate>
       <StoreType>X509Store</StoreType>

@@ -24,5 +24,5 @@ Be careful with :
 Status :
  - Only Logic is working.
  - The form is not working, you must specify manually items in config files (KpOpcUA_061.xml & OpcUADemo.tbl) & in "Input Channels" in database.
-   Ctrl+F "= null;//" to know the lines must be updated/adapted to this version of OPC UA DLLs (Core/Configuration/Client 1.3.352.10). Even if it's solved, the save/load configuration file is totally wrong with the actual organization of XML vars.
+   Ctrl+F "= null;//" to know the lines must be updated/adapted to this version of OPC UA DLLs (Core/Configuration/Client 1.3.352.10). Even if it's solved, the save/load configuration file is totally wrong with the actual organization.
  - Work with non-encrypted certificate. Must be tested with other type of certs

@@ -202,7 +202,7 @@ namespace Scada.Comm.Devices
                 ApplicationInstance application = new ApplicationInstance
                 {
                     ApplicationType = ApplicationType.Client,
-                    ConfigSectionName = "ScadaCommSvc"
+                    ConfigSectionName = config.ApplicationName
                 };
                 
                 // C:\Windows\System32\file.Config.xml

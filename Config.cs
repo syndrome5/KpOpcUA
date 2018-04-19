@@ -193,6 +193,8 @@ namespace Scada.Comm.Devices.KpOpcUA
 
         public Boolean UseCertificate { get; set; }
 
+        public string ApplicationName { get; set; }
+
         /// <summary>
         /// Получить группы чтения данных
         /// </summary>
@@ -246,6 +248,8 @@ namespace Scada.Comm.Devices.KpOpcUA
                             ServerPath = val;
                         else if (name == "usecertificate")
                             UseCertificate = Convert.ToBoolean(val);
+                        else if (name == "applicationname")
+                            ApplicationName = val;
                     }
                 }
 

@@ -210,6 +210,10 @@
     <None Include="Res\folder.psd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DLLs\BouncyCastle.Crypto.dll" />
+    <Content Include="DLLs\Opc.Ua.Client.dll" />
+    <Content Include="DLLs\Opc.Ua.Configuration.dll" />
+    <Content Include="DLLs\Opc.Ua.Core.dll" />
     <Content Include="KpOpcUA_061.xml" />
     <Content Include="Lang\KpOpcUA.en-GB.xml" />
     <Content Include="Res\ae_cat.png" />

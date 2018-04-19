@@ -19,6 +19,7 @@ Be careful with :
  - Need to move Lang/KpOpcUA.en-GB.xml in ScadaComm/Lang/
  - Need to move OpcUADemo.tbl in Interface/DemoViews/
  - Need to modify database and pass them to ScadaServer (do it on the order of the screen)
+   For linux users, do it on windows host and follow the file convert_win_to_unix.txt steps.
    ![screen](https://image.noelshack.com/fichiers/2018/15/4/1523523661-1.png)
  - Always restart ScadaComm (& sometimes ScadaServer) to apply changes
 

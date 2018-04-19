@@ -1,6 +1,6 @@
 # KpOpcUA
 
-Plugin OPC UA protocol for RapidScada platform.
+Plugin OPC UA protocol for RapidScada platform : https://github.com/RapidScada/scada
 
 Be careful with :
  - Need to add & install Nu packages like on the screen
@@ -8,6 +8,8 @@ Be careful with :
    - opcfoundation.netstandard.opc.ua.symbols.1.3.352.10.nupkg
    
    ![screen](https://image.noelshack.com/fichiers/2018/15/4/1523524870-2.png)
+   
+ - Check references needed in the project to know what you have to add by NuGet
  - Put your KpOpcUA.dll in KP folder
  - DLL needed to make it working well (normally in the same folder than KpOpcUA.dll)
  - Events of pre-compilation/post-compilation
@@ -22,4 +24,8 @@ Be careful with :
 Status :
  - Only Logic is working.
  - The form is not working, you must specify manually items in config files (KpOpcUA_061.xml & OpcUADemo.tbl) & in "Input Channels" in database.
-   Ctrl+F "= null;//" to know the lines must be updated/adapted to this version of OPC UA DLLs (Core/Configuration/Client 1.3.352.10)
+   Ctrl+F "= null;//" to know the lines must be updated/adapted to this version of OPC UA DLLs (Core/Configuration/Client 1.3.352.10). Even if it's solved, the save/load configuration file is totally wrong with the actual organization.
+ - Work with non-encrypted certificate. Must be tested with other type of certs
+
+How is it working ?
+![screen](https://image.noelshack.com/fichiers/2018/15/4/1523538814-sdkopcua.png)

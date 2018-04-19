@@ -227,6 +227,7 @@
     <Content Include="Res\refresh.png" />
     <Content Include="Res\server.png" />
     <Content Include="Res\up.png" />
+    <Content Include="ScadaCommMono.Config.xml" />
     <Content Include="ScadaCommSvc.Config.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

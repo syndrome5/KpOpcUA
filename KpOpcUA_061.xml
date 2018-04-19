@@ -3,6 +3,7 @@
   <Params>
     <Param name="ServerPath" value="opc.tcp://192.168.1.105:4334" />
 	<Param name="UseCertificate" value="true" />
+	<Param name="ApplicationName" value="ScadaCommSvc" /> <!-- Windows:ScadaCommSvc Linux:ScadaCommMono -->
   </Params>
   <DataGroups>
     <DataGroup name="Demo" active="true">

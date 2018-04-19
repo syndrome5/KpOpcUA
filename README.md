@@ -11,10 +11,11 @@ Be careful with :
    
  - Check references needed in the project to know what you have to add by NuGet
  - Put your KpOpcUA.dll in KP folder
- - DLL needed to make it working well (normally in the same folder than KpOpcUA.dll)
+ - Need to move all DLLs from DLLs folder to ScadaComm folder.
  - Events of pre-compilation/post-compilation
- - Need to move ScadaCommSvc.Config.xml in system32 folder for windows
- - Need to move KpOpcUA_061.xml in ScadaComm/Config/ and change the IP OPC UA server
+ - - Need to move ScadaCommSvc.Config.xml in system32 folder for windows
+   - Need to move ScadaCommMono.Config.xml in ScadaComm folder for linux
+ - Need to move KpOpcUA_061.xml in ScadaComm/Config/ and change the IP OPC UA server (and ApplicationName in term of your OS)
  - Need to move Lang/KpOpcUA.en-GB.xml in ScadaComm/Lang/
  - Need to move OpcUADemo.tbl in Interface/DemoViews/
  - Need to modify database and pass them to ScadaServer (do it on the order of the screen)

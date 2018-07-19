@@ -7,6 +7,11 @@
   </Params>
   <DataGroups>
     <DataGroup name="Demo" active="true">
+      <!-- SIGNAL NUMBERS ARE ASSOCIATED ACCORDING TO THE ORDER BELOW, NOT FROM THE VALUE IN THE INPUT CHANNELS TABLE
+ 	   SIGNAL 1 = First <DataItem />
+	   SIGNAL 2 = Second <DataItem />
+           etc...
+      -->
       <DataItem name="FreeMemory" id="MyDevice.:.FreeMemory" active="true" updateRate="1000" mode="Reporting" />
     </DataGroup>
   </DataGroups>
